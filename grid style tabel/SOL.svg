@@ -1,0 +1,43 @@
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#a)">
+    <g filter="url(#b)">
+      <path d="M0 12a12 12 0 1 0 24 0 12 12 0 0 0-24 0Z" fill="#fff"/>
+    </g>
+    <path
+      d="M5.92 5.14a.6.6 0 0 1 .42-.17H20.7c.27 0 .4.31.21.5L18.08 8.3c-.11.1-.26.17-.42.17H3.3a.3.3 0 0 1-.21-.5l2.83-2.83Z"
+      fill="url(#c)"/>
+    <path
+      d="M5.92 15.7c.11-.1.26-.17.42-.17H20.7c.27 0 .4.32.21.5l-2.83 2.83c-.11.1-.26.17-.42.17H3.3a.3.3 0 0 1-.21-.5l2.83-2.83Z"
+      fill="url(#d)"/>
+    <path
+      d="M17.66 10.22c.16 0 .3.06.42.17l2.83 2.83a.3.3 0 0 1-.2.5H6.33a.59.59 0 0 1-.42-.17L3.1 10.72a.3.3 0 0 1 .2-.5h14.37Z"
+      fill="url(#e)"/>
+  </g>
+  <defs>
+    <linearGradient id="c" x1="17.15" y1="2.14" x2="7.25" y2="21.15" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#DC1FFF"/>
+    </linearGradient>
+    <linearGradient id="d" x1="17.15" y1="2.14" x2="7.25" y2="21.15" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#DC1FFF"/>
+    </linearGradient>
+    <linearGradient id="e" x1="17.15" y1="2.14" x2="7.25" y2="21.15" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#DC1FFF"/>
+    </linearGradient>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+    <filter id="b" x="0" y="0" width="24" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feMorphology radius=".5" in="SourceAlpha" result="effect1_innerShadow_39_33"/>
+      <feOffset/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+      <feBlend in2="shape" result="effect1_innerShadow_39_33"/>
+    </filter>
+  </defs>
+</svg>

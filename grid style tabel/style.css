@@ -1,0 +1,124 @@
+@font-face {
+  font-family: yeakn;
+  src: url(./iranyekanwebregular.woff2);
+}
+body {
+  font-family: yeakn;
+  background-color: #fafbfc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.grid-box {
+  width: 1200px;
+  height: 721px;
+  left: 118px;
+  top: 1031px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.discription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1150px;
+  height: 79px;
+  padding: 0 1.125rem;
+}
+.show-all {
+  position: relative;
+}
+.show-all a {
+  color: #ffffff;
+  padding: 5px 20px;
+  font-size: 18px;
+  text-align: center;
+  background: #7e3af2;
+  border-radius: 10px;
+  height: 40px;
+}
+.show-all svg {
+  width: 15px;
+  vertical-align: middle;
+}
+.live-price span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.gird-header {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 0.75fr 0.75fr 1.5fr 0.75fr 0.5fr;
+  place-items: center;
+  border-bottom: 0.5px solid #d8d8d8;
+  padding-bottom: 20px;
+}
+.coin {
+  display: flex;
+  flex-direction: column;
+}
+.coin-detail {
+  display: grid;
+  grid-template-columns: 0.75fr 0.75fr 1.5fr 0.75fr 0.5fr;
+  place-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 80px;
+  border-bottom: 0.5px solid #d8d8d8;
+  transition: background-color 300ms ease;
+}
+.coin-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* background-color: #7e3af2; */
+  min-width: 160px;
+}
+.coin-icon img {
+  width: 36px;
+  margin-left: 9px;
+}
+button {
+  padding: 8px 14px;
+  border: 1px solid #d0d5dd;
+  font-size: 14px;
+  color: #344054;
+  /* Shadow/xs */
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  transition: background-color 300ms ease;
+}
+button:hover {
+  background: #7f56d9;
+  border: 1px solid #7f56d9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #f4ebff;
+  color: #ffffff;
+}
+.coin-name span,
+.last-price span {
+  font-family: sans-serif;
+  color: #878b93;
+  margin-right: 3px;
+}
+
+.price-in-24 span {
+  color: #f04438;
+  margin-right: 5px;
+}
+.coin-detail:hover {
+  background: #f9f5ff;
+}
+.rasie span {
+  color: #12b76a;
+}
+.space{
+    height: 50px;
+}
+.coin-detail:nth-child(7){
+border: none;
+}
